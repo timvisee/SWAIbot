@@ -1,0 +1,37 @@
+<VisualMicro>
+  <Program Ext=".ino" Name="RouterAntenna" Location="C:\Users\Tim\Documents\PWS\Arduino Workspace\RouterAntenna">
+    <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" VariantFullPath="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" McuIdePath="C:\Program Files (x86)\Arduino" McuSketchBookPath="C:\Users\Tim\Documents\Arduino" name="Arduino Uno" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xde" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="standard" runtime.ide.path="C:\Program Files (x86)\Arduino" build.system.path="C:\Program Files (x86)\Arduino\hardware\arduino\system" runtime.ide.version="101" originalid="uno" vm.platform.root.path="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" build.core.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino" vm.core.include="arduino.h" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="C:\Users\Tim\Documents\Arduino" build.board="AVR_UNO" vm.boardsource.path="C:\Program Files (x86)\Arduino\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" includes=" -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG&quot;  -I&quot;C:\Program Files (x86)\Arduino\libraries\SoftwareSerial&quot; " build.path="C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno" build.project_name="RouterAntenna" build.variant.path="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" archive_file="core.a" object_file="C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno\SoftwareSerial\SoftwareSerial.cpp.o" source_file="C:\Program Files (x86)\Arduino\libraries\SoftwareSerial\SoftwareSerial.cpp" object_files="&quot;C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno\RouterAntenna.cpp.o&quot; &quot;C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno\VM_DBG\VM_mem_check.c.o&quot; &quot;C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno\VM_DBG\VM_DBG.cpp.o&quot; &quot;C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno\SoftwareSerial\SoftwareSerial.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" vmresolved.tools.path="C:\Program Files (x86)\Arduino\hardware\tools\avr" />
+    </Platform>
+    <Compile IsDebugStart="1" CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Tim\AppData\Local\VMicro\Arduino\Builds\RouterAntenna\uno" SketchName="RouterAntenna" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 80;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE_TTYUART 8;VM_DEBUGGER_TYPE_NET_CONSOLE 9;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;" IncludesDebug="1" IsCompiled="1" />
+    <Debug DebugEnabled="1" />
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="RouterAntenna.ino, line 21" Id="1da408d8-553b-45e4-a747-4528248666f5" Enabled="1" Message="{millis()}" MessageTextType="2" PreProcessedMessage="{0}" Condition="millis()&gt;0 || millis()&gt;1" ConditionType="1" CurrentHits="0" File="c:\users\tim\documents\pws\arduino workspace\routerantenna\routerantenna.ino" FileLine="21" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="250" HitCountType="4" Language="C++" LocationType="3" Tag="&lt;vmbp Id='1da408d8-553b-45e4-a747-4528248666f5'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
+        <Source>14		pinMode(txPin, OUTPUT);
+15	
+16		// Start the serial connections
+17		Serial.begin(9600);
+18		router.begin(9600);
+19	}
+20	
+--&gt;21	void loop() {
+22		// Check whether there's any data available on the computer or antenna side, if so, handle the data
+23		while(router.available() || Serial.available()) {
+24			// Handle data comming from the router antenna if available
+25			if(router.available()) {
+26				// Enable the status LED
+27				digitalWrite(txPin, HIGH);
+28	
+29				// Route the data
+30				Serial.write(router.read());
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="millis()" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>

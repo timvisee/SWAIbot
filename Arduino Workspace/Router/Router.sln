@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Router", "Router.vcxproj", "{32F83C12-BF8B-466B-A5BE-5BE85A15115B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RouterAntenna", "..\RouterAntenna\RouterAntenna.vcxproj", "{F40968A6-262F-451F-8219-EBE1AD4DC414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F83C12-BF8B-466B-A5BE-5BE85A15115B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32F83C12-BF8B-466B-A5BE-5BE85A15115B}.Debug|Win32.Build.0 = Debug|Win32
+		{32F83C12-BF8B-466B-A5BE-5BE85A15115B}.Release|Win32.ActiveCfg = Release|Win32
+		{32F83C12-BF8B-466B-A5BE-5BE85A15115B}.Release|Win32.Build.0 = Release|Win32
+		{F40968A6-262F-451F-8219-EBE1AD4DC414}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F40968A6-262F-451F-8219-EBE1AD4DC414}.Debug|Win32.Build.0 = Debug|Win32
+		{F40968A6-262F-451F-8219-EBE1AD4DC414}.Release|Win32.ActiveCfg = Release|Win32
+		{F40968A6-262F-451F-8219-EBE1AD4DC414}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
